@@ -1,48 +1,48 @@
 /*
- * https://rentry.org/teralomaniac_clewd
- * https://github.com/teralomaniac/clewd
- */
+* https://rentry.org/teralomaniac_clewd
+* https://github.com/teralomaniac/clewd
+*/
 
 // SET YOUR COOKIE BELOW
 
 module.exports = {
-  Cookie: "SET YOUR COOKIE HERE",
-  CookieArray: [],
-  Cookiecounter: 3,
-  CookieIndex: 0,
-  ProxyPassword: "",
-  Ip: "127.0.0.1",
-  Port: 8444,
-  localtunnel: false,
-  BufferSize: 1,
-  SystemInterval: 3,
-  rProxy: "",
-  api_rProxy: "",
-  padtxt_placeholder: "",
-  PromptExperimentFirst: "",
-  PromptExperimentNext: "",
-  PersonalityFormat: "{{char}}'s personality: {{personality}}",
-  ScenarioFormat: "Dialogue scenario: {{scenario}}",
-  Settings: {
-    RenewAlways: true,
-    RetryRegenerate: false,
-    PromptExperiments: true,
-    SystemExperiments: true,
-    PreventImperson: false,
-    AllSamples: false,
-    NoSamples: false,
-    StripAssistant: false,
-    StripHuman: false,
-    PassParams: false,
-    ClearFlags: true,
-    PreserveChats: false,
-    LogMessages: true,
-    FullColon: true,
-    padtxt: 15000,
-    xmlPlot: true,
-    Superfetch: true,
-  },
-};
+    "Cookie": "SET YOUR COOKIE HERE",
+    "CookieArray": [],
+    "Cookiecounter": 3,
+    "CookieIndex": 0,
+    "ProxyPassword": "",
+    "Ip": "127.0.0.1",
+    "Port": 8444,
+    "localtunnel": false,
+    "BufferSize": 1,
+    "SystemInterval": 3,
+    "rProxy": "",
+    "api_rProxy": "",
+    "padtxt_placeholder": "",
+    "PromptExperimentFirst": "",
+    "PromptExperimentNext": "",
+    "PersonalityFormat": "{{char}}'s personality: {{personality}}",
+    "ScenarioFormat": "Dialogue scenario: {{scenario}}",
+    "Settings": {
+        "RenewAlways": true,
+        "RetryRegenerate": false,
+        "PromptExperiments": true,
+        "SystemExperiments": true,
+        "PreventImperson": false,
+        "AllSamples": false,
+        "NoSamples": false,
+        "StripAssistant": false,
+        "StripHuman": false,
+        "PassParams": false,
+        "ClearFlags": true,
+        "PreserveChats": false,
+        "LogMessages": true,
+        "FullColon": true,
+        "padtxt": 15000,
+        "xmlPlot": true,
+        "Superfetch": true
+    }
+}
 
 /*
  BufferSize
